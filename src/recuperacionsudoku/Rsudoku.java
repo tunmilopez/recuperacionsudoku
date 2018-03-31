@@ -26,6 +26,47 @@ public class Rsudoku {
       String resultadoFinal = "";
       return resultadoFinal;
       }
-}
+      
+      public void modificarElemento(int fila, int columna, int elemento) throws SudokuException
+      {
+      }
+      
+      
+      public void vaciarElemento(int fila, int columna)
+      {
+      }
+      
+      
+      private boolean comprobarFila(int fila, int elemento)
+      {
+      boolean resultado = true;
+      return resultado;
+      }
+      
+      
+      private boolean comprobarColumna(int columna, int elemento)
+      {
+      boolean resultado = true;
+      return resultado;
+      }
+      
+      
+      private boolean comprobarCuadrante(int fila, int columna, int elemento)
+      {
+      boolean resultado = true;
+      return resultado;
+      }
+      
+      
+      private boolean puedoInsertar(int fila, int columna, int elemento)
+      {
+      boolean resultado = false;
+      return resultado;
+      }  
+
+
+      }
+
+
       
       
